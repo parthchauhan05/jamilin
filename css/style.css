@@ -21,9 +21,36 @@ header{
     text-align: center;
 }
 
+.inline{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*
+header .primary #toggle{
+    display: none;
+}
+
+header .primary #toggle:checked ~ header .primary nav{
+    display: block;
+} 
+
+header .primary label{
+    font-size: 2.25rem;
+    display: block;
+    cursor: pointer;
+}
+
+header .primary nav{
+    display: none;
+}
+*/
+
 header nav ul{
     font-size: 1.25rem;
 }
+
 
 header .primary nav ul li{
     padding: 1rem;
@@ -36,9 +63,11 @@ header nav ul li a{
 
 header nav ul li.active{
     border-bottom: 2px solid black;
+    margin: 0 5%;
 }
 
 header nav#secondary {
+    display: none;
     background-color: #b7b7b7;
     font-family: Gabriola;
     font-size: 1rem;
@@ -50,6 +79,13 @@ header nav#secondary {
     }
     header .primary{
         display: flex;
+    }
+    
+    header .primary label, input{
+        display: none;
+    }
+    header .primary nav{
+        display: block;
     }
     
     header nav ul{
