@@ -27,7 +27,7 @@ header{
     align-items: center;
 }
 
-/*
+
 header .primary #toggle{
     display: none;
 }
@@ -45,7 +45,7 @@ header .primary label{
 header .primary nav{
     display: none;
 }
-*/
+
 
 header nav ul{
     font-size: 1.25rem;
