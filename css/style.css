@@ -25,8 +25,8 @@ header nav ul{
     font-size: 1.25rem;
 }
 
-header nav ul li{
-    margin: 1rem;
+header .primary nav ul li{
+    padding: 1rem;
 }
 
 header nav ul li a{
@@ -42,4 +42,20 @@ header nav#secondary {
     background-color: #b7b7b7;
     font-family: Gabriola;
     font-size: 1rem;
+}
+
+@media (min-width:30rem){
+    body{
+        font-size: 1.5rem;
+    }
+    header .primary{
+        display: flex;
+    }
+    
+    header nav ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.5rem;
+    }
 }
