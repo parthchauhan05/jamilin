@@ -28,11 +28,11 @@ header{
 }
 
 
-header .primary #toggle{
+#toggle{
     display: none;
 }
 
-header .primary #toggle:checked ~ header .primary nav{
+#toggle:checked~.primary nav{
     display: block;
 } 
 
@@ -68,9 +68,14 @@ header nav ul li.active{
 
 header nav#secondary {
     display: none;
-    background-color: #b7b7b7;
+    background-color: #dcdcdc;
     font-family: Gabriola;
     font-size: 1rem;
+}
+
+
+footer{
+    background-color: #b7b7b7;
 }
 
 @media (min-width:30rem){
@@ -92,6 +97,16 @@ header nav#secondary {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        padding: 0 1rem;
+    }
+    header nav#secondary{
+        display: block;
+    }
+    header nav#secondary ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.15rem;
     }
 }
