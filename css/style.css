@@ -78,6 +78,23 @@ footer{
     background-color: #b7b7b7;
 }
 
+footer nav ul.left-side{
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul.left-side li{
+    margin: 0 1rem;
+}
+
+footer nav ul li:last-child{
+    text-align: right;     
+}
+
+footer span{
+    text-align: center;
+}
+
 @media (min-width:30rem){
     body{
         font-size: 1.5rem;
