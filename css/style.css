@@ -126,4 +126,8 @@ footer span{
         align-items: center;
         font-size: 1.15rem;
     }
+    
+    footer{
+        font-size: 1rem;
+    }
 }

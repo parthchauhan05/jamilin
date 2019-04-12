@@ -7,16 +7,20 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>  
-    <header>
-      <div class="primary">
-       <img src="./image/logo.png" alt="Jami Lin">
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li class="active"><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
+     <header>
+        <input type="checkbox" id="toggle">
+        <div class="primary">
+            <div class="inline">
+                <img src="./image/logo.png" alt="Jami Lin">
+                <label for="toggle">&#9776;</label>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li class="active"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
         <nav id="secondary">
             <ul>
@@ -28,5 +32,16 @@
             </ul>
         </nav>
     </header>
+        <footer>
+        <nav>
+            <ul class=left-side>
+                <li class="active"><a href="./index.html">[Home]</a></li>
+                <li><a href="./about.html">[About]</a></li>
+                <li><a href="./contact.html">[Contact]</a></li>
+                <li><a href="#" class="float-right">[Back to top]</a></li>
+            </ul>
+        </nav>
+        <span><p>&copy; Copyright 2019</p></span>
+    </footer>
 </body>
 </html>
