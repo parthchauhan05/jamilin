@@ -17,7 +17,7 @@ body{
     font-family: Goudy Old Style,Garamond,Big Caslon,Times                New Roman,serif; 
     font-size: 1rem;
     line-height: 1.5;
-    background-color: #ffffff;
+    background-color: #f1f1f1;
 }
 
 h1{
@@ -64,6 +64,10 @@ header .primary nav ul li{
     padding: 1rem;
 }
 
+header .primary nav ul li:last-child{
+    margin-bottom: 1rem;
+}
+
 header nav ul li a{
     text-decoration: none;
     color: #000000;
@@ -82,15 +86,15 @@ header nav#secondary {
 }
 
 main .intro{
-    background-color: #f1f1f1;
     text-align: center;
     padding: 2rem;
     font-size: 1.15rem;
 }
 
 main .feng-shui-for{
+    background-color: #ffffff;
     text-align: center;
-    margin: 0.5rem;
+    padding: 0.5rem;
 }
 
 main .feng-shui-for .uses{
@@ -107,7 +111,6 @@ main .feng-shui-for figure figcaption{
 }
 
 main #slider-1{
-    background-color: #f1f1f1;
     padding: 1rem 0;
     text-align: center;
     display: flex;
@@ -121,6 +124,7 @@ main #slider-1 a img{
 }
 
 main #slider-2{
+    background-color: #ffffff;
     padding: 1rem 0;
     text-align: center;
     display: flex;
@@ -141,10 +145,15 @@ main #slider-2 a img{
     padding: 0;
 }
 
-main #slider-2 img{
+main #slider-2 figure{
     height: auto;
-    width: 8rem;
+    width: 15rem;
     padding: 1rem;
+}
+
+main #slider-2 figure img{
+    display: inline-block;
+    width: 100%;
 }
 
 main .subscribe{
