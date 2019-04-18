@@ -73,6 +73,15 @@ header nav#secondary {
     font-size: 1rem;
 }
 
+main .intro{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.15rem;
+}
+
+main 
+
 
 footer{
     background-color: #b7b7b7;
@@ -143,7 +152,7 @@ footer section .social a img{
     }
     header nav#secondary ul{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         font-size: 1.15rem;
     }
