@@ -9,11 +9,19 @@ font-weight: normal;
 src: local('Gabriola'), url('gabriola Font Download.woff') format('woff');
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: Goudy Old Style,Garamond,Big Caslon,Times                New Roman,serif; 
     font-size: 1rem;
     line-height: 1.5;
     background-color: #ffffff;
+}
+
+h1{
+    font-size: 1.5rem;
 }
 
 header{
@@ -80,11 +88,99 @@ main .intro{
     font-size: 1.15rem;
 }
 
-main 
+main .feng-shui-for{
+    text-align: center;
+    margin: 0.5rem;
+}
 
+main .feng-shui-for .uses{
+    display: flex;
+    flex-direction: column;
+}
+
+main .feng-shui-for .uses figure{
+    margin: 3rem  0.5rem;
+}
+
+main .feng-shui-for figure figcaption{
+    font-size: 1.25rem;
+}
+
+main #slider-1{
+    background-color: #f1f1f1;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #slider-1 a img{
+    height: auto;
+    width: 5rem;
+}
+
+main #slider-2{
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+main #slider-2 span{
+    font-family: Gabriola;
+    font-weight: 100;
+    font-size: 1.25rem;
+}
+
+main #slider-2 a img{
+    height: auto;
+    width: 5rem;
+    padding: 0;
+}
+
+main #slider-2 img{
+    height: auto;
+    width: 8rem;
+    padding: 1rem;
+}
+
+main .subscribe{
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 1rem 0;
+}
+
+main .subscribe input{
+    border: none;
+    background-color: #f1f1f1;
+    border-bottom: 2px solid black;
+}
+
+main .subscribe input::placeholder{
+    font-family: Gabriola;
+}
+
+main .subscribe button{
+    border: none;
+    background-color: #1b5e20;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 1.15rem;
+    margin: 0 1rem;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times                New Roman,serif;
+}
 
 footer{
     background-color: #b7b7b7;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: #000;
 }
 
 footer nav ul.left-side{
@@ -92,7 +188,7 @@ footer nav ul.left-side{
     justify-content: center;
 }
 
-footer nav ul.left-side li{
+footer nav ul.left-side li:nth-child(odd){
     margin: 0 1rem;
 }
 
@@ -102,7 +198,7 @@ footer nav ul li:last-child{
 
 footer section{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center; 
     margin-top: 0.5rem;
 }
@@ -160,6 +256,8 @@ footer section .social a img{
     footer{
         font-size: 1.15rem;
     }
+    
+
     
     footer section{
         justify-content: space-around;
