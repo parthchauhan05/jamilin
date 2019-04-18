@@ -91,8 +91,28 @@ footer nav ul li:last-child{
     text-align: right;     
 }
 
-footer span{
+footer section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 0.5rem;
+}
+
+footer section span{
     text-align: center;
+    margin-left: 1rem;
+    width: 40%;
+}
+
+footer section .social{
+    text-align: center;
+}
+
+footer section .social a img{
+    height: auto;
+    width: 18%;
+    padding: 0 0.5rem;
+    display: inline;
 }
 
 
@@ -129,6 +149,10 @@ footer span{
     }
     
     footer{
-        font-size: 1rem;
+        font-size: 1.15rem;
+    }
+    
+    footer section{
+        justify-content: space-around;
     }
 }
