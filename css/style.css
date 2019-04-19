@@ -233,6 +233,9 @@ footer section .social a img{
 @media (min-width:30rem){
     body{
         font-size: 1.5rem;
+        max-width: 80rem;
+        margin: 0 auto;
+        background-color: #fff;
     }
     header .primary{
         display: flex;
@@ -252,6 +255,9 @@ footer section .social a img{
         font-size: 1.25rem;
         padding: 0 1rem;
     }
+    header .primary nav ul li:last-child{
+        margin-bottom: 0;
+    }
     header nav#secondary{
         display: block;
     }
@@ -262,11 +268,55 @@ footer section .social a img{
         font-size: 1.15rem;
     }
     
-    footer{
-        font-size: 1.15rem;
+    main .intro{
+        background-color: #f1f1f1;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.25rem;
     }
     
-
+    main .feng-shui-for .uses{
+        flex-direction:row;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+    }
+    
+    main .feng-shui-for .uses figure{
+        margin: 3rem 8rem;
+    }
+    
+    main #slider-1{
+        background-color: #f1f1f1;
+        justify-content: space-between;
+    }
+    
+    main #slider-1 p{
+        max-width: 40rem;    
+    }
+    
+    main #slider-2{
+        justify-content: space-around;
+    }
+    
+    main #slider-2 p span{
+        font-size: 1.75rem;
+    }
+    
+    main .subscribe{
+        display: flex;
+        justify-content: center;
+    }
+    
+    main .subscribe input{
+        display: inline;
+        font-size: 1.25rem;
+        width: 25rem;
+    }
+    
+    footer{    
+        font-size: 1.15rem;
+    }
     
     footer section{
         justify-content: space-around;
