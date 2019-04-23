@@ -8,7 +8,7 @@
     font-weight: normal;
     src: local('Gabriola'), url('gabriola Font Download.woff') format('woff');
 }
-
+/*HOME PAGE*/
 html {
     scroll-behavior: smooth;
 }
@@ -35,7 +35,7 @@ header {
     align-items: center;
 }
 
-
+/*reusable header*/
 #toggle {
     display: none;
 }
@@ -83,6 +83,7 @@ header nav#secondary {
     font-size: 1rem;
 }
 
+/*Main Area*/
 main .intro {
     text-align: center;
     padding: 2rem;
@@ -181,6 +182,7 @@ main .subscribe button {
     font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
 }
 
+/*reusable footer*/
 footer {
     background-color: #b7b7b7;
 }
@@ -227,17 +229,21 @@ footer section .social a img {
     display: inline;
 }
 
+/*About Page*/
 .bgc {
 
     background-color: #fff;
 }
 
+/*TABLE*/
 table {
     margin: auto;
     min-width: 300px;
     max-width: 100%;
     border-collapse: collapse;
     background-color: #fff;
+    color: #333;
+    overflow: hidden;
 }
 
 table tr:first-child {
@@ -258,8 +264,8 @@ table tbody {
 }
 
 table tr {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
     background-color: #fff;
 }
 
@@ -291,29 +297,13 @@ table td:before {
     color: #000;
 }
 
-table th,
-table td {
+table th, table td {
     text-align: left;
-}
-
-table {
-    color: #333;
-    /*  border-radius: .4em;*/
-    overflow: hidden;
-}
-
-table tr {
-    border-color: #bfbfbf;
+    padding: 0.5em 1em;
 }
 
 table tr:last-child {
     margin-bottom: 2rem;
-
-}
-
-table th,
-table td {
-    padding: 0.5em 1em;
 }
 
 .empty-div {
@@ -322,6 +312,7 @@ table td {
     background-color: #fff;
 }
 
+/*Contact Page*/
 form {
     margin: 0 auto;
     max-width: 45rem;
@@ -369,7 +360,7 @@ form fieldset input[type="submit"] {
     cursor: pointer;
 }
 
-
+/*Desktop and Tablet*/
 @media (min-width:30rem) {
     body {
         font-size: 1.5rem;
@@ -377,7 +368,7 @@ form fieldset input[type="submit"] {
         margin: 0 auto;
         background-color: #fff;
     }
-
+/*    reusable header*/
     header .primary {
         display: flex;
     }
@@ -414,6 +405,7 @@ form fieldset input[type="submit"] {
         font-size: 1.15rem;
     }
 
+/*    Main Content*/
     main .intro {
         background-color: #f1f1f1;
         display: flex;
@@ -460,6 +452,7 @@ form fieldset input[type="submit"] {
         max-width: 25rem;
     }
 
+/*    reusable footer*/
     footer {
         font-size: 1.15rem;
     }
@@ -468,6 +461,7 @@ form fieldset input[type="submit"] {
         justify-content: space-around;
     }
 
+/*    About Page*/
     table caption {
         font-size: 1.73rem;
     }
@@ -505,13 +499,13 @@ form fieldset input[type="submit"] {
         height: 2.9rem;
     }
 
+/*    Contact Page*/
     form {
         margin: 3.25rem auto;
     }
 
     form fieldset legend {
         font-size: 2rem;
-        margin-bottom: 3rem;
     }
 
     form fieldset input,
@@ -520,6 +514,6 @@ form fieldset input[type="submit"] {
     }
     
     form fieldset input:last-child{
-        margin-bottom: ;
+        margin-bottom: 0;
     }
 }
