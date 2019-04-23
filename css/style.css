@@ -229,6 +229,101 @@ footer section .social a img{
     display: inline;
 }
 
+.bgc{
+    
+    background-color: #fff;
+}
+
+table {
+  margin: auto;
+  min-width: 300px;
+  max-width: 100%;
+  border-collapse: collapse;
+    background-color: #fff;
+}
+
+table tr:first-child {
+  border-top: none;
+  background: #333333;
+  color: #f1f1f1;
+    border-radius: 0.4rem;
+}
+
+table caption{
+    font-size: 1.3rem;
+    margin: 2rem auto;
+    font-weight: bold;
+}
+
+table tbody{
+    margin-bottom: 2rem;   
+}
+
+table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+
+table tr:nth-child(odd):not(:first-child) {
+  background-color: #b7b7b7;
+}
+
+table th {
+  display: none;
+}
+
+table td {
+  display: block;
+}
+
+table td:first-child {
+  margin-top: .5em;
+}
+
+table td:last-child {
+  margin-bottom: .5em;
+}
+
+table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 120px;
+  display: inline-block;
+  color: #000;
+}
+
+table th,
+table td {
+  text-align: left;
+}
+
+table {
+  color: #333;
+/*  border-radius: .4em;*/
+  overflow: hidden;
+}
+
+table tr {
+  border-color: #bfbfbf;
+}
+
+table tr:last-child{
+        margin-bottom: 2rem;   
+
+}
+
+table th,
+table td {
+  padding: 0.5em 1em;
+}
+
+.empty-div{
+    width: auto;
+    height: 2rem;
+    background-color: #fff;
+}
+
 
 @media (min-width:30rem){
     body{
@@ -311,14 +406,44 @@ footer section .social a img{
     main .subscribe input{
         display: inline;
         font-size: 1.25rem;
-        width: 25rem;
+        max-width: 25rem;
     }
-    
+
     footer{    
         font-size: 1.15rem;
     }
     
     footer section{
         justify-content: space-around;
+    }
+
+    table caption{
+        font-size: 1.73rem;
+    }
+    table tr:hover:not(:first-child) {
+    background-color: #d8e7f3;
+  }
+  table td:before {
+    display: none;
+  }
+  table th,
+  table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  table th:first-child,
+  table td:first-child {
+    padding-left: 0;
+  }
+  table th:last-child,
+  table td:last-child {
+    padding-right: 0;
+  }
+  table th,
+  table td {
+    padding: 1em !important;
+  }
+    .empty-div{
+        height: 2.rem;
     }
 }
