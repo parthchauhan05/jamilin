@@ -1,79 +1,77 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 @font-face {
-font-family: 'Gabriola';
-font-style: normal;
-font-weight: normal;
-src: local('Gabriola'), url('gabriola Font Download.woff') format('woff');
+    font-family: 'Gabriola';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gabriola'), url('gabriola Font Download.woff') format('woff');
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
-    font-family: Goudy Old Style,Garamond,Big Caslon,Times                New Roman,serif; 
+body {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
     font-size: 1rem;
     line-height: 1.5;
     background-color: #f1f1f1;
 }
 
-h1{
+h1 {
     font-size: 1.5rem;
 }
 
-header{
+header {
     background-color: #f1f1f1;
     text-align: center;
 }
 
-.inline{
+.inline {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 
-#toggle{
+#toggle {
     display: none;
 }
 
-#toggle:checked~.primary nav{
+#toggle:checked ~ .primary nav {
     display: block;
-} 
+}
 
-header .primary label{
+header .primary label {
     font-size: 2.25rem;
     display: block;
     cursor: pointer;
 }
 
-header .primary nav{
+header .primary nav {
     display: none;
 }
 
-
-header nav ul{
+header nav ul {
     font-size: 1.25rem;
 }
 
-
-header .primary nav ul li{
+header .primary nav ul li {
     padding: 1rem;
 }
 
-header .primary nav ul li:last-child{
+header .primary nav ul li:last-child {
     margin-bottom: 1rem;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     color: #000000;
 }
 
-header nav ul li.active{
+header nav ul li.active {
     border-bottom: 2px solid black;
     margin: 0 5%;
 }
@@ -85,32 +83,32 @@ header nav#secondary {
     font-size: 1rem;
 }
 
-main .intro{
+main .intro {
     text-align: center;
     padding: 2rem;
     font-size: 1.15rem;
 }
 
-main .feng-shui-for{
+main .feng-shui-for {
     background-color: #ffffff;
     text-align: center;
     padding: 0.5rem;
 }
 
-main .feng-shui-for .uses{
+main .feng-shui-for .uses {
     display: flex;
     flex-direction: column;
 }
 
-main .feng-shui-for .uses figure{
-    margin: 3rem  0.5rem;
+main .feng-shui-for .uses figure {
+    margin: 3rem 0.5rem;
 }
 
-main .feng-shui-for figure figcaption{
+main .feng-shui-for figure figcaption {
     font-size: 1.25rem;
 }
 
-main #slider-1{
+main #slider-1 {
     padding: 1rem 0;
     text-align: center;
     display: flex;
@@ -118,12 +116,12 @@ main #slider-1{
     align-items: center;
 }
 
-main #slider-1 a img{
+main #slider-1 a img {
     height: auto;
     width: 5rem;
 }
 
-main #slider-2{
+main #slider-2 {
     background-color: #ffffff;
     padding: 1rem 0;
     text-align: center;
@@ -133,46 +131,46 @@ main #slider-2{
     font-weight: bold;
 }
 
-main #slider-2 span{
+main #slider-2 span {
     font-family: Gabriola;
     font-weight: 100;
     font-size: 1.25rem;
 }
 
-main #slider-2 a img{
+main #slider-2 a img {
     height: auto;
     width: 5rem;
     padding: 0;
 }
 
-main #slider-2 figure{
+main #slider-2 figure {
     height: auto;
     width: 15rem;
     padding: 1rem;
 }
 
-main #slider-2 figure img{
+main #slider-2 figure img {
     display: inline-block;
     width: 100%;
 }
 
-main .subscribe{
+main .subscribe {
     text-align: center;
     background-color: #f1f1f1;
     padding: 1rem 0;
 }
 
-main .subscribe input{
+main .subscribe input {
     border: none;
     background-color: #f1f1f1;
     border-bottom: 2px solid black;
 }
 
-main .subscribe input::placeholder{
+main .subscribe input::placeholder {
     font-family: Gabriola;
 }
 
-main .subscribe button{
+main .subscribe button {
     border: none;
     background-color: #1b5e20;
     color: #fff;
@@ -180,270 +178,344 @@ main .subscribe button{
     border-radius: 25px;
     font-size: 1.15rem;
     margin: 0 1rem;
-    font-family: Goudy Old Style,Garamond,Big Caslon,Times                New Roman,serif;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
 }
 
-footer{
+footer {
     background-color: #b7b7b7;
 }
 
-footer nav ul li a{
+footer nav ul li a {
     text-decoration: none;
     color: #000;
 }
 
-footer nav ul.left-side{
+footer nav ul.left-side {
     display: flex;
     justify-content: center;
 }
 
-footer nav ul.left-side li:nth-child(odd){
+footer nav ul.left-side li:nth-child(odd) {
     margin: 0 1rem;
 }
 
-footer nav ul li:last-child{
-    text-align: right;     
+footer nav ul li:last-child {
+    text-align: right;
 }
 
-footer section{
+footer section {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin-top: 0.5rem;
 }
 
-footer section span{
+footer section span {
     text-align: center;
     margin-left: 1rem;
     width: 40%;
 }
 
-footer section .social{
+footer section .social {
     text-align: center;
 }
 
-footer section .social a img{
+footer section .social a img {
     height: auto;
     width: 18%;
     padding: 0 0.5rem;
     display: inline;
 }
 
-.bgc{
-    
+.bgc {
+
     background-color: #fff;
 }
 
 table {
-  margin: auto;
-  min-width: 300px;
-  max-width: 100%;
-  border-collapse: collapse;
+    margin: auto;
+    min-width: 300px;
+    max-width: 100%;
+    border-collapse: collapse;
     background-color: #fff;
 }
 
 table tr:first-child {
-  border-top: none;
-  background: #333333;
-  color: #f1f1f1;
+    border-top: none;
+    background: #333333;
+    color: #f1f1f1;
     border-radius: 0.4rem;
 }
 
-table caption{
+table caption {
     font-size: 1.3rem;
     margin: 2rem auto;
     font-weight: bold;
 }
 
-table tbody{
-    margin-bottom: 2rem;   
+table tbody {
+    margin-bottom: 2rem;
 }
 
 table tr {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
 }
 
 table tr:nth-child(odd):not(:first-child) {
-  background-color: #b7b7b7;
+    background-color: #b7b7b7;
 }
 
 table th {
-  display: none;
+    display: none;
 }
 
 table td {
-  display: block;
+    display: block;
 }
 
 table td:first-child {
-  margin-top: .5em;
+    margin-top: .5em;
 }
 
 table td:last-child {
-  margin-bottom: .5em;
+    margin-bottom: .5em;
 }
 
 table td:before {
-  content: attr(data-th) ": ";
-  font-weight: bold;
-  width: 120px;
-  display: inline-block;
-  color: #000;
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 120px;
+    display: inline-block;
+    color: #000;
 }
 
 table th,
 table td {
-  text-align: left;
+    text-align: left;
 }
 
 table {
-  color: #333;
-/*  border-radius: .4em;*/
-  overflow: hidden;
+    color: #333;
+    /*  border-radius: .4em;*/
+    overflow: hidden;
 }
 
 table tr {
-  border-color: #bfbfbf;
+    border-color: #bfbfbf;
 }
 
-table tr:last-child{
-        margin-bottom: 2rem;   
+table tr:last-child {
+    margin-bottom: 2rem;
 
 }
 
 table th,
 table td {
-  padding: 0.5em 1em;
+    padding: 0.5em 1em;
 }
 
-.empty-div{
+.empty-div {
     width: auto;
     height: 2rem;
     background-color: #fff;
 }
 
+form {
+    margin: 0 auto;
+    max-width: 45rem;
+    background-color: #fff;
+}
 
-@media (min-width:30rem){
-    body{
+form fieldset {
+    margin: 0 2rem;
+}
+
+form fieldset legend {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #b7b7b7;
+}
+
+form fieldset input {
+    border: 0;
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+}
+
+form fieldset input::placeholder,
+form fieldset textarea::placeholder {
+    font-family: Gabriola;
+    font-size: 1.25rem;
+}
+
+form fieldset textarea {
+    border: 0;
+    border-bottom: 2px solid black;
+    margin: 1rem auto;
+    width: 100%;
+}
+
+form fieldset input[type="submit"] {
+    border: none;
+    background-color: #fff;
+    font-family: Gabriola;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+@media (min-width:30rem) {
+    body {
         font-size: 1.5rem;
         max-width: 80rem;
         margin: 0 auto;
         background-color: #fff;
     }
-    header .primary{
+
+    header .primary {
         display: flex;
     }
-    
-    header .primary label, input{
+
+    header .primary label,
+    input {
         display: none;
     }
-    header .primary nav{
+
+    header .primary nav {
         display: block;
     }
-    
-    header nav ul{
+
+    header nav ul {
         display: flex;
         justify-content: space-around;
         align-items: center;
         font-size: 1.25rem;
         padding: 0 1rem;
     }
-    header .primary nav ul li:last-child{
+
+    header .primary nav ul li:last-child {
         margin-bottom: 0;
     }
-    header nav#secondary{
+
+    header nav#secondary {
         display: block;
     }
-    header nav#secondary ul{
+
+    header nav#secondary ul {
         display: flex;
         justify-content: space-around;
         align-items: center;
         font-size: 1.15rem;
     }
-    
-    main .intro{
+
+    main .intro {
         background-color: #f1f1f1;
         display: flex;
         align-items: center;
         justify-content: space-around;
         font-size: 1.25rem;
     }
-    
-    main .feng-shui-for .uses{
-        flex-direction:row;
+
+    main .feng-shui-for .uses {
+        flex-direction: row;
         justify-content: space-around;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
-    
-    main .feng-shui-for .uses figure{
+
+    main .feng-shui-for .uses figure {
         margin: 3rem 8rem;
     }
-    
-    main #slider-1{
+
+    main #slider-1 {
         background-color: #f1f1f1;
         justify-content: space-between;
     }
-    
-    main #slider-1 p{
-        max-width: 40rem;    
+
+    main #slider-1 p {
+        max-width: 40rem;
     }
-    
-    main #slider-2{
+
+    main #slider-2 {
         justify-content: space-around;
     }
-    
-    main #slider-2 p span{
+
+    main #slider-2 p span {
         font-size: 1.75rem;
     }
-    
-    main .subscribe{
+
+    main .subscribe {
         display: flex;
         justify-content: center;
     }
-    
-    main .subscribe input{
+
+    main .subscribe input {
         display: inline;
         font-size: 1.25rem;
         max-width: 25rem;
     }
 
-    footer{    
+    footer {
         font-size: 1.15rem;
     }
-    
-    footer section{
+
+    footer section {
         justify-content: space-around;
     }
 
-    table caption{
+    table caption {
         font-size: 1.73rem;
     }
+
     table tr:hover:not(:first-child) {
-    background-color: #d8e7f3;
-  }
-  table td:before {
-    display: none;
-  }
-  table th,
-  table td {
-    display: table-cell;
-    padding: .25em .5em;
-  }
-  table th:first-child,
-  table td:first-child {
-    padding-left: 0;
-  }
-  table th:last-child,
-  table td:last-child {
-    padding-right: 0;
-  }
-  table th,
-  table td {
-    padding: 1em !important;
-  }
-    .empty-div{
+        background-color: #d8e7f3;
+    }
+
+    table td:before {
+        display: none;
+    }
+
+    table th,
+    table td {
+        display: table-cell;
+        padding: .25em .5em;
+    }
+
+    table th:first-child,
+    table td:first-child {
+        padding-left: 0;
+    }
+
+    table th:last-child,
+    table td:last-child {
+        padding-right: 0;
+    }
+
+    table th,
+    table td {
+        padding: 1em !important;
+    }
+
+    .empty-div {
         height: 2.9rem;
+    }
+
+    form {
+        margin: 3.25rem auto;
+    }
+
+    form fieldset legend {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    form fieldset input,
+    textarea {
+        margin: 2rem auto;
     }
 }
